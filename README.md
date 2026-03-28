@@ -10,7 +10,7 @@ Built to protect job seekers — especially freshers — from falling victim to 
 
 Paste any job description → Get instant FAKE or GENUINE prediction with confidence score.
 
-![App Screenshot](screenshots/result.png)
+![App Screenshot](fake_job_detector/screenshots/result.png)
 
 ---
 
