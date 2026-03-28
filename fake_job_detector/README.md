@@ -106,5 +106,5 @@ Open **http://127.0.0.1:5000** in your browser.
 
 ## 👨‍💻 Author
 
-**Abhi** — B.Tech CSE 2025  
+**Abhi** 
 [GitHub](https://github.com/Abhi-91)
