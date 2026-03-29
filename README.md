@@ -6,7 +6,9 @@ Built to protect job seekers — especially freshers — from falling victim to 
 
 ---
 
+
 ## 🚀 Live Demo
+👉 [Click here to try the app](https://fake-job-detector-zo3h.onrender.com/)
 
 Paste any job description → Get instant FAKE or GENUINE prediction with confidence score.
 
