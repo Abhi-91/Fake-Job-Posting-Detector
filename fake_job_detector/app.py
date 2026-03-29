@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 import string
 import nltk
+import os
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
@@ -9,10 +10,13 @@ nltk.download('stopwords')
 app = Flask(__name__)
 
 # Load saved model and tfidf
-with open('model.pkl', 'rb') as f:
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+with open(os.path.join(BASE_DIR, 'model.pkl'), 'rb') as f:
     model = pickle.load(f)
 
-with open('tfidf.pkl', 'rb') as f:
+with open(os.path.join(BASE_DIR, 'tfidf.pkl'), 'rb') as f:
     tfidf = pickle.load(f)
 
 # Same cleaning function from Day 2
